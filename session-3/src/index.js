@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import LightTraffic from './BTVN/session5';
+import Session3 from './BTVN/sesstion3';
 import reportWebVitals from './reportWebVitals';
-
+console.log(React)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    <LightTraffic />
+    <Session3/>    
+    
   </React.StrictMode>
 );
 
